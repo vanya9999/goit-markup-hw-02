@@ -9,6 +9,7 @@
     background-color: #FFFFFF;
 }
 .logo-up {
+    text-decoration: none;
     font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -19,6 +20,7 @@
     color: var(--logo-up-color);
 }
 .logo-down {
+    text-decoration: none;
     font-family: 'Raleway' sans-serif;
     font-style: normal;
     font-weight: 800;
