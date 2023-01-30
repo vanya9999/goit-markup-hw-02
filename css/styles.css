@@ -5,164 +5,160 @@
     --text-color:#434455;
     --title-color: #2E2F42;
     --wite-color:#FFFFFF;
-
+    --hover-color:#404BBF;
 }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-}
-.header {
     background-color:var(--wite-color);
-}
-.logo-up {
+}    
+.logo {
     text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    line-height: 1,16;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-up-color);
 }
-.logo-down {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    line-height: 1,16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-footer {
     color: var(--logo-down-color);
 }
 .logo-web {
-    font-family: 'Raleway' ;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--logo-web-color);
 }
 .nav-studio   {
     text-decoration: none;
-    font-family: inherit; 
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.nav-studio:hover {
-    color: var(--logo-web-color);
+.nav-studio:hover,  .nav-studio:focus{
+    color: var(--hover-color);
 }
 .nav-portfolio {
     text-decoration: none;
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.nav-portfolio:hover {
-    color: var(--logo-web-color);
+.nav-portfolio:hover, .nav-portfolio:focus {
+    color: var(--hover-color);
 }
 .nav-contacts {
     text-decoration: none;
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
-.nav-contacts:hover {
-    color: var(--logo-web-color);
+.nav-contacts:hover, .nav-contacts:focus {
+    color: var(--hover-color);
+}
+.address {
+    font-style: normal;
 }
 .link {text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.link:hover {
+.link:hover, .link:focus {
     color: var(--logo-web-color);
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .title-text {
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--wite-color)
 }
 .button {
+    cursor: pointer;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    align-items: center;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--wite-color)
 }
+.button:hover, .button:focus {
+    background: var(--hover-color);
+    color: var(--wite-color);
+}
 .features-title {
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--title-color)
 }
-.features {
-    font-family: inherit;
-    font-weight: 400;
+.features-text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .what-re-we-doing-title {
-    font-family: inherit;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--title-color);
 }
 .our-team-title {
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--title-color);
 }
+.mark-guerrero {
+    background: var(--wite-color);
+}
+.tom-ford {
+    background: var(--wite-color);
+}
+.camila-garcia {
+    background: var(--wite-color);
+}
+.daniel-wilson {
+    background: var(--wite-color);
+}
 .our-team-name {
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
 .our-team-profession {
-    font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .portfolio-button-text {
@@ -179,35 +175,40 @@
 }
 .portfolio-button-text:hover, .portfolio-button-text:focus {
     color:var(--wite-color);
-    background-color:var(--logo-web-color);}
+    background-color:var(--logo-web-color);
+}
+.portfolio-content {
+    text-decoration: none;
+}
 .portfolio-title {
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
 .portfolio-text {
-    font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
-.list{ list-style: none;}
-
+.list { 
+    list-style: none;
+}
 .title {
     background-color: #2E2F42;
     }
-.our-team {background: #F4F4FD;}
+.our-team {
+    background: #F4F4FD;
+}
 .footer {
     background: #2E2F42;
-    font-family: inherit;
-    font-weight: 400;
+}
+.footer-text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: #E7E9FC
 }
 
